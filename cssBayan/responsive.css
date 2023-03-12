@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 990px){
+.accordion {
+    width: 880px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 768px) {
+    .accordion {
+        width: 668px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .accordion-item{
+        font-size: 1em;
+    }
+}
