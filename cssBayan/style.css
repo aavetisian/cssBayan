@@ -26,14 +26,15 @@ width: 100%;
 }
 .accordion-item{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size:  1.5em;
     background-color: rgb(21, 209, 96);
     color: aliceblue;
     width: 100%;
     cursor: pointer;
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 0.3em;
     padding: 0.5em;
+    transition: 1.5s;
 }
 .accordion:hover 
 .accordion-item:hover 
@@ -42,4 +43,41 @@ width: 100%;
 .default 
 .accordion-item-content {
     height: 8em;
+    transition: 1s;
+   
+}
+.accordion-item:hover{
+    color: black;
+    background-size: 30px;
+    background-image: url(assets/icons/cross.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.chainsaw{
+    background-image: url(assets/images/woody.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.eminem{
+    background-image: url(assets/images/eminem.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.shower {
+    background-image: url(assets/images/graph.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.diploma {
+    background-image: url(assets/images/college.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.icon{
+    background-image: url(assets/icons/plus.svg);
+    background-size: 30px;
+    background-position: right;
+}
+.plus:hover{
+    display: none;
 }
