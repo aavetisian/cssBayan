@@ -4,7 +4,7 @@
     
 }
 body{
-    background: greenyellow;
+    background-image: url(assets/images/background.png);
 }
 h1{
     margin: 1em;
@@ -27,7 +27,7 @@ width: 100%;
 .accordion-item{
     font-family: Arial, Helvetica, sans-serif;
     font-size:  1.5em;
-    background-color: rgb(21, 209, 96);
+    background-color: rgb(60, 71, 65);
     color: aliceblue;
     width: 100%;
     cursor: pointer;
@@ -46,12 +46,27 @@ width: 100%;
     transition: 1s;
    
 }
+.default:hover{
+    background-image: url(assets/icons/plus.svg);
+    background-size: 30px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.chainsaw:hover{
+    
+    background-size: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+    }
+
 .accordion-item:hover{
     color: black;
     background-size: 30px;
     background-image: url(assets/icons/cross.svg);
     background-repeat: no-repeat;
     background-position: right;
+    background-color: rgb(235, 239, 227);
 }
 
 
@@ -59,16 +74,38 @@ width: 100%;
     background-image: url(assets/images/eminem.svg);
     background-repeat: no-repeat;
     background-size: 180px;
+    background-position: center;
+}
+.eminem:hover {
+    background-image: url(assets/images/eminem.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
 }
 .shower {
     background-image: url(assets/images/graph.svg);
     background-repeat: no-repeat;
     background-size: 180px;
+    background-position: center;
+}
+.shower:hover {
+    background-image: url(assets/images/graph.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
 }
 .diploma {
     background-image: url(assets/images/college.svg);
     background-repeat: no-repeat;
     background-size: 180px;
+    background-position: center;
+    
+}
+.diploma:hover {
+    background-image: url(assets/images/college.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
     
 }
 .accordion-item{
@@ -76,16 +113,20 @@ width: 100%;
     background-size: 30px;
     background-position: right;
     background-repeat: no-repeat;
+    
 }
 .default{
     background-image: url(assets/icons/cross.svg);
     background-size: 30px;
     background-position: right;
     background-repeat: no-repeat;
+    background-color: rgb(235, 239, 227);
+    color: black;
 }
 .chainsaw {
     background-image: url(assets/images/woody.svg);
     background-repeat: no-repeat;
     background-size: 180px;
+    background-position: center;
 }
 
