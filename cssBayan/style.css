@@ -5,6 +5,8 @@
 }
 body{
     background-image: url(assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     margin: 1em;

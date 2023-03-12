@@ -1,10 +1,24 @@
 
+@media screen and (max-width: 1100px) {
+    .accordion {
+        width: 1000px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
 @media screen and (max-width: 990px){
 .accordion {
     width: 880px;
     margin: 0 auto;
     max-width: 100%;
+ }
 }
+@media screen and (max-width: 850px) {
+    .accordion {
+        width: 750px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
     .accordion {
@@ -17,5 +31,107 @@
     }
     .accordion-item{
         font-size: 1em;
+    }
+}
+@media screen and (max-width: 550px) {
+    .accordion {
+        width: 440px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .accordion {
+        width: 220px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    
+    .accordion-item {
+        font-size: 0.5em;
+    }
+    .default:hover {
+        background-image: url(assets/icons/plus.svg);
+        background-size: 15px;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .chainsaw:hover {
+    
+        background-size: 15px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .accordion-item:hover {
+        color: black;
+        background-size: 15px;
+        background-image: url(assets/icons/cross.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgb(235, 239, 227);
+    }
+    .eminem {
+        background-image: url(assets/images/eminem.svg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center;
+    }
+    .eminem:hover {
+        background-image: url(assets/images/eminem.svg);
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position: left;
+    }
+    .shower {
+        background-image: url(assets/images/graph.svg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center;
+    }
+    .shower:hover {
+        background-image: url(assets/images/graph.svg);
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position: left;
+    }
+    .diploma {
+        background-image: url(assets/images/college.svg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center;
+    }
+    .diploma:hover {
+        background-image: url(assets/images/college.svg);
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position: left;
+    
+    }
+    
+    .accordion-item {
+        background-image: url(assets/icons/plus.svg);
+        background-size: 15px;
+        background-position: right;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .default {
+        background-image: url(assets/icons/cross.svg);
+        background-size: 15px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-color: rgb(235, 239, 227);
+        color: black;
+    }
+    
+    .chainsaw {
+        background-image: url(assets/images/woody.svg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center;
     }
 }
