@@ -53,11 +53,8 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
-.chainsaw{
-    background-image: url(assets/images/woody.svg);
-    background-repeat: no-repeat;
-    background-size: 180px;
-}
+
+
 .eminem{
     background-image: url(assets/images/eminem.svg);
     background-repeat: no-repeat;
@@ -72,12 +69,23 @@ width: 100%;
     background-image: url(assets/images/college.svg);
     background-repeat: no-repeat;
     background-size: 180px;
+    
 }
-.icon{
+.accordion-item{
     background-image: url(assets/icons/plus.svg);
     background-size: 30px;
     background-position: right;
+    background-repeat: no-repeat;
 }
-.plus:hover{
-    display: none;
+.default{
+    background-image: url(assets/icons/cross.svg);
+    background-size: 30px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
+.chainsaw {
+    background-image: url(assets/images/woody.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
